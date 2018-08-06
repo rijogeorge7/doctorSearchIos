@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D69B51B22118098B007CFBBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51B12118098B007CFBBD /* AppDelegate.swift */; };
+		D69B51B42118098B007CFBBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51B32118098B007CFBBD /* ViewController.swift */; };
+		D69B51B72118098B007CFBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69B51B52118098B007CFBBD /* Main.storyboard */; };
+		D69B51B92118098C007CFBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69B51B82118098C007CFBBD /* Assets.xcassets */; };
+		D69B51BC2118098C007CFBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69B51BA2118098C007CFBBD /* LaunchScreen.storyboard */; };
+		D69B51C72118098C007CFBBD /* DoctorSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51C62118098C007CFBBD /* DoctorSearchTests.swift */; };
+		D69B51D22118098C007CFBBD /* DoctorSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51D12118098C007CFBBD /* DoctorSearchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D69B51C32118098C007CFBBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69B51A62118098B007CFBBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69B51AD2118098B007CFBBD;
+			remoteInfo = DoctorSearch;
+		};
+		D69B51CE2118098C007CFBBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69B51A62118098B007CFBBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69B51AD2118098B007CFBBD;
+			remoteInfo = DoctorSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D69B51AE2118098B007CFBBD /* DoctorSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69B51B12118098B007CFBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D69B51B32118098B007CFBBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D69B51B62118098B007CFBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D69B51B82118098C007CFBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D69B51BB2118098C007CFBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D69B51BD2118098C007CFBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69B51C22118098C007CFBBD /* DoctorSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69B51C62118098C007CFBBD /* DoctorSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSearchTests.swift; sourceTree = "<group>"; };
+		D69B51C82118098C007CFBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69B51CD2118098C007CFBBD /* DoctorSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69B51D12118098C007CFBBD /* DoctorSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSearchUITests.swift; sourceTree = "<group>"; };
+		D69B51D32118098C007CFBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69B51AB2118098B007CFBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B51BF2118098C007CFBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B51CA2118098C007CFBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D69B51A52118098B007CFBBD = {
+			isa = PBXGroup;
+			children = (
+				D69B51B02118098B007CFBBD /* DoctorSearch */,
+				D69B51C52118098C007CFBBD /* DoctorSearchTests */,
+				D69B51D02118098C007CFBBD /* DoctorSearchUITests */,
+				D69B51AF2118098B007CFBBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D69B51AF2118098B007CFBBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69B51AE2118098B007CFBBD /* DoctorSearch.app */,
+				D69B51C22118098C007CFBBD /* DoctorSearchTests.xctest */,
+				D69B51CD2118098C007CFBBD /* DoctorSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69B51B02118098B007CFBBD /* DoctorSearch */ = {
+			isa = PBXGroup;
+			children = (
+				D69B51B12118098B007CFBBD /* AppDelegate.swift */,
+				D69B51B32118098B007CFBBD /* ViewController.swift */,
+				D69B51B52118098B007CFBBD /* Main.storyboard */,
+				D69B51B82118098C007CFBBD /* Assets.xcassets */,
+				D69B51BA2118098C007CFBBD /* LaunchScreen.storyboard */,
+				D69B51BD2118098C007CFBBD /* Info.plist */,
+			);
+			path = DoctorSearch;
+			sourceTree = "<group>";
+		};
+		D69B51C52118098C007CFBBD /* DoctorSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69B51C62118098C007CFBBD /* DoctorSearchTests.swift */,
+				D69B51C82118098C007CFBBD /* Info.plist */,
+			);
+			path = DoctorSearchTests;
+			sourceTree = "<group>";
+		};
+		D69B51D02118098C007CFBBD /* DoctorSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D69B51D12118098C007CFBBD /* DoctorSearchUITests.swift */,
+				D69B51D32118098C007CFBBD /* Info.plist */,
+			);
+			path = DoctorSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69B51AD2118098B007CFBBD /* DoctorSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69B51D62118098C007CFBBD /* Build configuration list for PBXNativeTarget "DoctorSearch" */;
+			buildPhases = (
+				D69B51AA2118098B007CFBBD /* Sources */,
+				D69B51AB2118098B007CFBBD /* Frameworks */,
+				D69B51AC2118098B007CFBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorSearch;
+			productName = DoctorSearch;
+			productReference = D69B51AE2118098B007CFBBD /* DoctorSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69B51C12118098C007CFBBD /* DoctorSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69B51D92118098C007CFBBD /* Build configuration list for PBXNativeTarget "DoctorSearchTests" */;
+			buildPhases = (
+				D69B51BE2118098C007CFBBD /* Sources */,
+				D69B51BF2118098C007CFBBD /* Frameworks */,
+				D69B51C02118098C007CFBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69B51C42118098C007CFBBD /* PBXTargetDependency */,
+			);
+			name = DoctorSearchTests;
+			productName = DoctorSearchTests;
+			productReference = D69B51C22118098C007CFBBD /* DoctorSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D69B51CC2118098C007CFBBD /* DoctorSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69B51DC2118098C007CFBBD /* Build configuration list for PBXNativeTarget "DoctorSearchUITests" */;
+			buildPhases = (
+				D69B51C92118098C007CFBBD /* Sources */,
+				D69B51CA2118098C007CFBBD /* Frameworks */,
+				D69B51CB2118098C007CFBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69B51CF2118098C007CFBBD /* PBXTargetDependency */,
+			);
+			name = DoctorSearchUITests;
+			productName = DoctorSearchUITests;
+			productReference = D69B51CD2118098C007CFBBD /* DoctorSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69B51A62118098B007CFBBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rijo George";
+				TargetAttributes = {
+					D69B51AD2118098B007CFBBD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D69B51C12118098C007CFBBD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D69B51AD2118098B007CFBBD;
+					};
+					D69B51CC2118098C007CFBBD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D69B51AD2118098B007CFBBD;
+					};
+				};
+			};
+			buildConfigurationList = D69B51A92118098B007CFBBD /* Build configuration list for PBXProject "DoctorSearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D69B51A52118098B007CFBBD;
+			productRefGroup = D69B51AF2118098B007CFBBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69B51AD2118098B007CFBBD /* DoctorSearch */,
+				D69B51C12118098C007CFBBD /* DoctorSearchTests */,
+				D69B51CC2118098C007CFBBD /* DoctorSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69B51AC2118098B007CFBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69B51BC2118098C007CFBBD /* LaunchScreen.storyboard in Resources */,
+				D69B51B92118098C007CFBBD /* Assets.xcassets in Resources */,
+				D69B51B72118098B007CFBBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B51C02118098C007CFBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B51CB2118098C007CFBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69B51AA2118098B007CFBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69B51B42118098B007CFBBD /* ViewController.swift in Sources */,
+				D69B51B22118098B007CFBBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B51BE2118098C007CFBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69B51C72118098C007CFBBD /* DoctorSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69B51C92118098C007CFBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69B51D22118098C007CFBBD /* DoctorSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69B51C42118098C007CFBBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69B51AD2118098B007CFBBD /* DoctorSearch */;
+			targetProxy = D69B51C32118098C007CFBBD /* PBXContainerItemProxy */;
+		};
+		D69B51CF2118098C007CFBBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69B51AD2118098B007CFBBD /* DoctorSearch */;
+			targetProxy = D69B51CE2118098C007CFBBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D69B51B52118098B007CFBBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69B51B62118098B007CFBBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D69B51BA2118098C007CFBBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69B51BB2118098C007CFBBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D69B51D42118098C007CFBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D69B51D52118098C007CFBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69B51D72118098C007CFBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rijo.DoctorSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D69B51D82118098C007CFBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rijo.DoctorSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D69B51DA2118098C007CFBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rijo.DoctorSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorSearch.app/DoctorSearch";
+			};
+			name = Debug;
+		};
+		D69B51DB2118098C007CFBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rijo.DoctorSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorSearch.app/DoctorSearch";
+			};
+			name = Release;
+		};
+		D69B51DD2118098C007CFBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rijo.DoctorSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoctorSearch;
+			};
+			name = Debug;
+		};
+		D69B51DE2118098C007CFBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DoctorSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rijo.DoctorSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoctorSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69B51A92118098B007CFBBD /* Build configuration list for PBXProject "DoctorSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69B51D42118098C007CFBBD /* Debug */,
+				D69B51D52118098C007CFBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69B51D62118098C007CFBBD /* Build configuration list for PBXNativeTarget "DoctorSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69B51D72118098C007CFBBD /* Debug */,
+				D69B51D82118098C007CFBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69B51D92118098C007CFBBD /* Build configuration list for PBXNativeTarget "DoctorSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69B51DA2118098C007CFBBD /* Debug */,
+				D69B51DB2118098C007CFBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69B51DC2118098C007CFBBD /* Build configuration list for PBXNativeTarget "DoctorSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69B51DD2118098C007CFBBD /* Debug */,
+				D69B51DE2118098C007CFBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69B51A62118098B007CFBBD /* Project object */;
+}
