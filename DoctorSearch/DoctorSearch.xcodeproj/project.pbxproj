@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D64087E0211E3150000A6A47 /* LocationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64087DF211E3150000A6A47 /* LocationTextField.swift */; };
+		D64087E2211E3CAE000A6A47 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64087E1211E3CAE000A6A47 /* SearchTextField.swift */; };
 		D69B51B22118098B007CFBBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51B12118098B007CFBBD /* AppDelegate.swift */; };
-		D69B51B42118098B007CFBBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51B32118098B007CFBBD /* ViewController.swift */; };
+		D69B51B42118098B007CFBBD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51B32118098B007CFBBD /* SearchViewController.swift */; };
 		D69B51B72118098B007CFBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69B51B52118098B007CFBBD /* Main.storyboard */; };
 		D69B51B92118098C007CFBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69B51B82118098C007CFBBD /* Assets.xcassets */; };
 		D69B51BC2118098C007CFBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69B51BA2118098C007CFBBD /* LaunchScreen.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D64087DF211E3150000A6A47 /* LocationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTextField.swift; sourceTree = "<group>"; };
+		D64087E1211E3CAE000A6A47 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 		D69B51AE2118098B007CFBBD /* DoctorSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69B51B12118098B007CFBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D69B51B32118098B007CFBBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D69B51B32118098B007CFBBD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D69B51B62118098B007CFBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D69B51B82118098C007CFBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D69B51BB2118098C007CFBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,9 +78,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D64087DB211E1CCF000A6A47 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D69B51B32118098B007CFBBD /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D64087DC211E1CE2000A6A47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D64087DE211E1CF2000A6A47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D64087DF211E3150000A6A47 /* LocationTextField.swift */,
+				D64087E1211E3CAE000A6A47 /* SearchTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D69B51A52118098B007CFBBD = {
 			isa = PBXGroup;
 			children = (
+				D64087DC211E1CE2000A6A47 /* Model */,
+				D64087DE211E1CF2000A6A47 /* View */,
+				D64087DB211E1CCF000A6A47 /* ViewControllers */,
 				D69B51B02118098B007CFBBD /* DoctorSearch */,
 				D69B51C52118098C007CFBBD /* DoctorSearchTests */,
 				D69B51D02118098C007CFBBD /* DoctorSearchUITests */,
@@ -98,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				D69B51B12118098B007CFBBD /* AppDelegate.swift */,
-				D69B51B32118098B007CFBBD /* ViewController.swift */,
 				D69B51B52118098B007CFBBD /* Main.storyboard */,
 				D69B51B82118098C007CFBBD /* Assets.xcassets */,
 				D69B51BA2118098C007CFBBD /* LaunchScreen.storyboard */,
@@ -256,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D69B51B42118098B007CFBBD /* ViewController.swift in Sources */,
+				D69B51B42118098B007CFBBD /* SearchViewController.swift in Sources */,
 				D69B51B22118098B007CFBBD /* AppDelegate.swift in Sources */,
+				D64087E0211E3150000A6A47 /* LocationTextField.swift in Sources */,
+				D64087E2211E3CAE000A6A47 /* SearchTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SearchViewController: UIViewController {
 
+    @IBOutlet weak var locatinField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.locatinField.layer.borderColor = UIColor(red: 157/255, green: 211/255, blue: 209/255, alpha: 1).cgColor
+        self.locatinField.layer.borderWidth = CGFloat(Float(2.0))
+        self.locatinField.layer.cornerRadius = CGFloat(Float(8.0))
     }
 
     override func didReceiveMemoryWarning() {
