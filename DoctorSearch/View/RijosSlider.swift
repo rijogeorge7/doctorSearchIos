@@ -61,7 +61,7 @@ class RijosSlider: UIView {
             initView()
         }
     }
-    @IBInspectable var appendText = "miles" {
+    @IBInspectable var appendText : String = "miles" {
         didSet{
             initView()
         }
