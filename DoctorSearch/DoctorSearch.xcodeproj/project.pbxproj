@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D64087E0211E3150000A6A47 /* LocationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64087DF211E3150000A6A47 /* LocationTextField.swift */; };
 		D64087E2211E3CAE000A6A47 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64087E1211E3CAE000A6A47 /* SearchTextField.swift */; };
+		D64087E4211E68D5000A6A47 /* RijosSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64087E3211E68D5000A6A47 /* RijosSlider.swift */; };
 		D69B51B22118098B007CFBBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51B12118098B007CFBBD /* AppDelegate.swift */; };
 		D69B51B42118098B007CFBBD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51B32118098B007CFBBD /* SearchViewController.swift */; };
 		D69B51B72118098B007CFBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69B51B52118098B007CFBBD /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		D64087DF211E3150000A6A47 /* LocationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTextField.swift; sourceTree = "<group>"; };
 		D64087E1211E3CAE000A6A47 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		D64087E3211E68D5000A6A47 /* RijosSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijosSlider.swift; sourceTree = "<group>"; };
 		D69B51AE2118098B007CFBBD /* DoctorSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69B51B12118098B007CFBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D69B51B32118098B007CFBBD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				D64087DF211E3150000A6A47 /* LocationTextField.swift */,
 				D64087E1211E3CAE000A6A47 /* SearchTextField.swift */,
+				D64087E3211E68D5000A6A47 /* RijosSlider.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			files = (
 				D69B51B42118098B007CFBBD /* SearchViewController.swift in Sources */,
 				D69B51B22118098B007CFBBD /* AppDelegate.swift in Sources */,
+				D64087E4211E68D5000A6A47 /* RijosSlider.swift in Sources */,
 				D64087E0211E3150000A6A47 /* LocationTextField.swift in Sources */,
 				D64087E2211E3CAE000A6A47 /* SearchTextField.swift in Sources */,
 			);
