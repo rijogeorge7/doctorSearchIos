@@ -61,13 +61,20 @@ class RijosSlider: UIView {
             initView()
         }
     }
+    @IBInspectable var appendText = "miles" {
+        didSet{
+            initView()
+        }
+    }
     var total : Double = 100
     var progressPercent = 0.5
     var thumbx : CGPoint?
+    var valueStr = "50 miles"
     
     func initView() {
         self.total = max - min
         self.progressPercent = (Double)(value) / total
+        valueStr = "\(value) \(appendText)"
     }
     
     
@@ -102,8 +109,8 @@ class RijosSlider: UIView {
             NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12.0),
             NSAttributedStringKey.foregroundColor: UIColor.blue
         ]
-        let attributedString = NSAttributedString(string: String(value), attributes: attributes)
-        let stringSize = (String(value)).size(withAttributes: attributes)
+        let attributedString = NSAttributedString(string: valueStr, attributes: attributes)
+        let stringSize = valueStr.size(withAttributes: attributes)
         let stringRect = CGRect(x: (thumbx?.x)! - (stringSize.width/2), y: (bounds.height - thumbSize) - stringSize.height, width: stringSize.width, height: stringSize.height)
         attributedString.draw(in: stringRect)
     }
