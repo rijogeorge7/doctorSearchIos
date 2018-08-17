@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67CA8732B46FFAFE05D56D89 /* Pods_DataManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A9BC4B57FF6BA2C2CC99F1 /* Pods_DataManager.framework */; };
 		81E1652A25692C9F40D9D011 /* Pods_DoctorSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FE9E9AA760E29790BAB06C /* Pods_DoctorSearchTests.framework */; };
 		D64087E0211E3150000A6A47 /* LocationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64087DF211E3150000A6A47 /* LocationTextField.swift */; };
 		D64087E2211E3CAE000A6A47 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64087E1211E3CAE000A6A47 /* SearchTextField.swift */; };
 		D64087E4211E68D5000A6A47 /* RijosSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64087E3211E68D5000A6A47 /* RijosSlider.swift */; };
+		D64087F3212754E2000A6A47 /* DataManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64087EA212754E2000A6A47 /* DataManager.framework */; };
+		D64087FA212754E3000A6A47 /* DataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64087F9212754E3000A6A47 /* DataManagerTests.swift */; };
+		D64087FC212754E3000A6A47 /* DataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D64087EC212754E2000A6A47 /* DataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D64087FF212754E3000A6A47 /* DataManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64087EA212754E2000A6A47 /* DataManager.framework */; };
+		D6408800212754E3000A6A47 /* DataManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D64087EA212754E2000A6A47 /* DataManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D640880B21275570000A6A47 /* DoctorSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640880A21275570000A6A47 /* DoctorSearchService.swift */; };
+		D640880E21275768000A6A47 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640880D21275768000A6A47 /* Language.swift */; };
+		D6408810212757E3000A6A47 /* DoctorProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640880F212757E3000A6A47 /* DoctorProfile.swift */; };
 		D69B51B22118098B007CFBBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51B12118098B007CFBBD /* AppDelegate.swift */; };
 		D69B51B42118098B007CFBBD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69B51B32118098B007CFBBD /* SearchViewController.swift */; };
 		D69B51B72118098B007CFBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69B51B52118098B007CFBBD /* Main.storyboard */; };
@@ -23,6 +32,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D64087F4212754E2000A6A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69B51A62118098B007CFBBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64087E9212754E2000A6A47;
+			remoteInfo = DataManager;
+		};
+		D64087F6212754E3000A6A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69B51A62118098B007CFBBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69B51AD2118098B007CFBBD;
+			remoteInfo = DoctorSearch;
+		};
+		D64087FD212754E3000A6A47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69B51A62118098B007CFBBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D64087E9212754E2000A6A47;
+			remoteInfo = DataManager;
+		};
 		D69B51C32118098C007CFBBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D69B51A62118098B007CFBBD /* Project object */;
@@ -39,18 +69,43 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D6408806212754E3000A6A47 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D6408800212754E3000A6A47 /* DataManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		00E82A49D166BF9BD114A720 /* Pods-DataManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataManager/Pods-DataManager.debug.xcconfig"; sourceTree = "<group>"; };
 		15FE9E9AA760E29790BAB06C /* Pods_DoctorSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctorSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA85D5B6E1245DE3D199E3E /* Pods-DoctorSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorSearchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoctorSearchUITests/Pods-DoctorSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
 		28A729D57167B98A16EB2AD0 /* Pods-DoctorSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorSearchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoctorSearchTests/Pods-DoctorSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		37BBEE732F6D111898EFEA7C /* Pods_DoctorSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctorSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C55A51FFA6B776F9A0F5704 /* Pods_DoctorSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctorSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		494370C8630A5CAD105E66F6 /* Pods-DoctorSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorSearchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoctorSearchTests/Pods-DoctorSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55A9BC4B57FF6BA2C2CC99F1 /* Pods_DataManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EB2293CB7E246FD9E87815 /* Pods-DoctorSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoctorSearch/Pods-DoctorSearch.release.xcconfig"; sourceTree = "<group>"; };
 		97A5AB7981FCF4434CA4964A /* Pods-DoctorSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoctorSearch/Pods-DoctorSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		D64087DF211E3150000A6A47 /* LocationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTextField.swift; sourceTree = "<group>"; };
 		D64087E1211E3CAE000A6A47 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 		D64087E3211E68D5000A6A47 /* RijosSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RijosSlider.swift; sourceTree = "<group>"; };
+		D64087EA212754E2000A6A47 /* DataManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64087EC212754E2000A6A47 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		D64087ED212754E2000A6A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64087F2212754E2000A6A47 /* DataManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64087F9212754E3000A6A47 /* DataManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerTests.swift; sourceTree = "<group>"; };
+		D64087FB212754E3000A6A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D640880A21275570000A6A47 /* DoctorSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSearchService.swift; sourceTree = "<group>"; };
+		D640880D21275768000A6A47 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		D640880F212757E3000A6A47 /* DoctorProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfile.swift; sourceTree = "<group>"; };
 		D69B51AE2118098B007CFBBD /* DoctorSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69B51B12118098B007CFBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D69B51B32118098B007CFBBD /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -65,13 +120,31 @@
 		D69B51D12118098C007CFBBD /* DoctorSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSearchUITests.swift; sourceTree = "<group>"; };
 		D69B51D32118098C007CFBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCDE5754995C5A7447CE83FC /* Pods-DoctorSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctorSearchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoctorSearchUITests/Pods-DoctorSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3FAE7303B49B47F71F86E92 /* Pods-DataManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataManager/Pods-DataManager.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D64087E6212754E2000A6A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CA8732B46FFAFE05D56D89 /* Pods_DataManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64087EF212754E2000A6A47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64087F3212754E2000A6A47 /* DataManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D69B51AB2118098B007CFBBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64087FF212754E3000A6A47 /* DataManager.framework in Frameworks */,
 				FD7748927EE47F8E56F56313 /* Pods_DoctorSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +177,8 @@
 				28A729D57167B98A16EB2AD0 /* Pods-DoctorSearchTests.release.xcconfig */,
 				DCDE5754995C5A7447CE83FC /* Pods-DoctorSearchUITests.debug.xcconfig */,
 				1EA85D5B6E1245DE3D199E3E /* Pods-DoctorSearchUITests.release.xcconfig */,
+				00E82A49D166BF9BD114A720 /* Pods-DataManager.debug.xcconfig */,
+				E3FAE7303B49B47F71F86E92 /* Pods-DataManager.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -133,6 +208,51 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D64087EB212754E2000A6A47 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				D640880C2127574C000A6A47 /* Model */,
+				D640880921275541000A6A47 /* WebService */,
+				D640880821275516000A6A47 /* repository */,
+				D64087EC212754E2000A6A47 /* DataManager.h */,
+				D64087ED212754E2000A6A47 /* Info.plist */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		D64087F8212754E3000A6A47 /* DataManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D64087F9212754E3000A6A47 /* DataManagerTests.swift */,
+				D64087FB212754E3000A6A47 /* Info.plist */,
+			);
+			path = DataManagerTests;
+			sourceTree = "<group>";
+		};
+		D640880821275516000A6A47 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		D640880921275541000A6A47 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				D640880A21275570000A6A47 /* DoctorSearchService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		D640880C2127574C000A6A47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D640880D21275768000A6A47 /* Language.swift */,
+				D640880F212757E3000A6A47 /* DoctorProfile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D69B51A52118098B007CFBBD = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +262,8 @@
 				D69B51B02118098B007CFBBD /* DoctorSearch */,
 				D69B51C52118098C007CFBBD /* DoctorSearchTests */,
 				D69B51D02118098C007CFBBD /* DoctorSearchUITests */,
+				D64087EB212754E2000A6A47 /* DataManager */,
+				D64087F8212754E3000A6A47 /* DataManagerTests */,
 				D69B51AF2118098B007CFBBD /* Products */,
 				C58C5DBC7EB4A40B1F819B23 /* Pods */,
 				DF16D7603902D2739F03B6D4 /* Frameworks */,
@@ -154,6 +276,8 @@
 				D69B51AE2118098B007CFBBD /* DoctorSearch.app */,
 				D69B51C22118098C007CFBBD /* DoctorSearchTests.xctest */,
 				D69B51CD2118098C007CFBBD /* DoctorSearchUITests.xctest */,
+				D64087EA212754E2000A6A47 /* DataManager.framework */,
+				D64087F2212754E2000A6A47 /* DataManagerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,13 +318,63 @@
 				37BBEE732F6D111898EFEA7C /* Pods_DoctorSearch.framework */,
 				15FE9E9AA760E29790BAB06C /* Pods_DoctorSearchTests.framework */,
 				3C55A51FFA6B776F9A0F5704 /* Pods_DoctorSearchUITests.framework */,
+				55A9BC4B57FF6BA2C2CC99F1 /* Pods_DataManager.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		D64087E7212754E2000A6A47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64087FC212754E3000A6A47 /* DataManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		D64087E9212754E2000A6A47 /* DataManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6408805212754E3000A6A47 /* Build configuration list for PBXNativeTarget "DataManager" */;
+			buildPhases = (
+				007794E7F2831DB05FE13431 /* [CP] Check Pods Manifest.lock */,
+				D64087E5212754E2000A6A47 /* Sources */,
+				D64087E6212754E2000A6A47 /* Frameworks */,
+				D64087E7212754E2000A6A47 /* Headers */,
+				D64087E8212754E2000A6A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataManager;
+			productName = DataManager;
+			productReference = D64087EA212754E2000A6A47 /* DataManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D64087F1212754E2000A6A47 /* DataManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6408807212754E3000A6A47 /* Build configuration list for PBXNativeTarget "DataManagerTests" */;
+			buildPhases = (
+				D64087EE212754E2000A6A47 /* Sources */,
+				D64087EF212754E2000A6A47 /* Frameworks */,
+				D64087F0212754E2000A6A47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D64087F5212754E2000A6A47 /* PBXTargetDependency */,
+				D64087F7212754E3000A6A47 /* PBXTargetDependency */,
+			);
+			name = DataManagerTests;
+			productName = DataManagerTests;
+			productReference = D64087F2212754E2000A6A47 /* DataManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D69B51AD2118098B007CFBBD /* DoctorSearch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D69B51D62118098C007CFBBD /* Build configuration list for PBXNativeTarget "DoctorSearch" */;
@@ -209,11 +383,13 @@
 				D69B51AA2118098B007CFBBD /* Sources */,
 				D69B51AB2118098B007CFBBD /* Frameworks */,
 				D69B51AC2118098B007CFBBD /* Resources */,
-				C5CC727D4DB616804C0F607D /* [CP] Embed Pods Frameworks */,
+				D6408806212754E3000A6A47 /* Embed Frameworks */,
+				DE49BC0587B0E5B8A706B04F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D64087FE212754E3000A6A47 /* PBXTargetDependency */,
 			);
 			name = DoctorSearch;
 			productName = DoctorSearch;
@@ -268,6 +444,14 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Rijo George";
 				TargetAttributes = {
+					D64087E9212754E2000A6A47 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					D64087F1212754E2000A6A47 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D69B51AD2118098B007CFBBD;
+					};
 					D69B51AD2118098B007CFBBD = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -297,11 +481,27 @@
 				D69B51AD2118098B007CFBBD /* DoctorSearch */,
 				D69B51C12118098C007CFBBD /* DoctorSearchTests */,
 				D69B51CC2118098C007CFBBD /* DoctorSearchUITests */,
+				D64087E9212754E2000A6A47 /* DataManager */,
+				D64087F1212754E2000A6A47 /* DataManagerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D64087E8212754E2000A6A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64087F0212754E2000A6A47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D69B51AC2118098B007CFBBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,20 +529,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B1B01F52C33A52CD9ED699C /* [CP] Check Pods Manifest.lock */ = {
+		007794E7F2831DB05FE13431 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataManager-checkManifestLockResult.txt",
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B1B01F52C33A52CD9ED699C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DoctorSearch-checkManifestLockResult.txt",
 			);
@@ -356,15 +570,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DoctorSearchUITests-checkManifestLockResult.txt",
 			);
@@ -378,15 +588,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DoctorSearchTests-checkManifestLockResult.txt",
 			);
@@ -395,20 +601,16 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C5CC727D4DB616804C0F607D /* [CP] Embed Pods Frameworks */ = {
+		DE49BC0587B0E5B8A706B04F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DoctorSearch/Pods-DoctorSearch-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
@@ -420,6 +622,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D64087E5212754E2000A6A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D640880B21275570000A6A47 /* DoctorSearchService.swift in Sources */,
+				D640880E21275768000A6A47 /* Language.swift in Sources */,
+				D6408810212757E3000A6A47 /* DoctorProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64087EE212754E2000A6A47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64087FA212754E3000A6A47 /* DataManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D69B51AA2118098B007CFBBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,6 +671,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D64087F5212754E2000A6A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64087E9212754E2000A6A47 /* DataManager */;
+			targetProxy = D64087F4212754E2000A6A47 /* PBXContainerItemProxy */;
+		};
+		D64087F7212754E3000A6A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69B51AD2118098B007CFBBD /* DoctorSearch */;
+			targetProxy = D64087F6212754E3000A6A47 /* PBXContainerItemProxy */;
+		};
+		D64087FE212754E3000A6A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D64087E9212754E2000A6A47 /* DataManager */;
+			targetProxy = D64087FD212754E3000A6A47 /* PBXContainerItemProxy */;
+		};
 		D69B51C42118098C007CFBBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D69B51AD2118098B007CFBBD /* DoctorSearch */;
@@ -483,6 +718,103 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D6408801212754E3000A6A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E82A49D166BF9BD114A720 /* Pods-DataManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DataManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rijo.DataManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6408802212754E3000A6A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FAE7303B49B47F71F86E92 /* Pods-DataManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DataManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rijo.DataManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6408803212754E3000A6A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DataManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rijo.DataManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorSearch.app/DoctorSearch";
+			};
+			name = Debug;
+		};
+		D6408804212754E3000A6A47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DataManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rijo.DataManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorSearch.app/DoctorSearch";
+			};
+			name = Release;
+		};
 		D69B51D42118098C007CFBBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -601,6 +933,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97A5AB7981FCF4434CA4964A /* Pods-DoctorSearch.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DoctorSearch/Info.plist;
@@ -619,6 +952,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61EB2293CB7E246FD9E87815 /* Pods-DoctorSearch.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DoctorSearch/Info.plist;
@@ -718,6 +1052,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D6408805212754E3000A6A47 /* Build configuration list for PBXNativeTarget "DataManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6408801212754E3000A6A47 /* Debug */,
+				D6408802212754E3000A6A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6408807212754E3000A6A47 /* Build configuration list for PBXNativeTarget "DataManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6408803212754E3000A6A47 /* Debug */,
+				D6408804212754E3000A6A47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D69B51A92118098B007CFBBD /* Build configuration list for PBXProject "DoctorSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
